@@ -1,0 +1,15 @@
+lvgl_guider:
+  boards:
+    mimxrt700evk@cm33_core0: []
+  contents:
+    document:
+      brief: LittleVGL project used with GUI Guider.
+      category: lvgl_examples
+      example_readme:
+      - examples/lvgl_examples/lvgl_guider/readme.md
+      - ${board_root}/${board}/lvgl_examples/lvgl_examples_readme.md
+      - ${board_root}/${board}/examples_shared_readme.md
+      name: lvgl_guider${core_id_suffix_name}
+    meta_path: examples/lvgl_examples/lvgl_guider/.
+    project-root-path: boards/${board}/lvgl_examples/lvgl_guider/${multicore_foldername}
+  section-type: freestanding_application
